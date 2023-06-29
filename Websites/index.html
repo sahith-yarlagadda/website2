@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title>TechVantagePc</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section id="banner">
+    <img src="logo5.png" class="logo">
+    <div class="banner-text">
+        <h1>TechVantagePC</h1>
+        <p>Below Market Rate Above Market Quality</p>
+        <div class="banner-btn">
+    </script>
+        <a href="#"><span></span>Socials</a>
+            <a href="#"><span></span>Read More</a>
+        </div>
+    </div>
+</section>
+
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#banner">HOME</a></li>    
+        <li><a href="#feature">FEATURES</a></li>    
+        <li><a href="#service">SERVICES</a></li>      
+        <li><a href="#footer">SOCIALS</a></li>    
+    </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.png" id="menu">
+</div>
+
+    
+
+    
+<section id="feature">
+    <div class="title-text">
+    <p>FEATURES</p>    
+    <h1>Why Choose Us</h1>
+    </div> 
+    <div class="feature-box">
+        <div class="features">
+            <h1>Experienced Staff</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Our staff is trained and ready to help you with all your computer needs whenever neccesary!</p>
+                </div>
+            </div>
+            <h1>Pre Booking Online</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-check-square-o"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Its as easy as a click of a button to schedule your next consultation with us!</p>
+                </div>
+            </div>
+            <h1>Affordable Cost</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-dollar"></i>
+                </div>
+                <div class="feature-text">
+                    <p>We price match our competetion while also giving you the consumer more quality!</p>
+                </div>
+            </div>
+        </div>
+        <div class="features-img">
+            <img src="alright.jpg">
+        </div>
+    </div>  
+       
+    </section>
+    <section id="service">
+        <div class="title-text">
+        <p>SERVICES</p>    
+        <h1>We Provide Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="pic1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Building Computers</h3>
+                    <hr>
+                    <p>We will come to your location and build you a computer fit to your own liking. Costs between 55-100$</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="pic2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>computer diagnostics</h3>
+                    <hr>
+                    <p>we provide computer diagnostic services and are always prepared to help get to the root of your problem!</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="pic3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>computer cleaning</h3>
+                    <hr>
+                    <p>We will clean your computer until there is not a spec of dust visable. Comes complimentery with a computer diagnostis.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="coding4.jfif">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Coding support</h3>
+                    <hr>
+                    <p>We offer the ability to code any of the problems you have away so your computer or pc is as good as new</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>   
+ 
+    <section id="footer">
+        <div class="title-text">
+        <p>SOCIAL INFO</p>    
+        <h1>Visit Us Today</h1>
+        </div>
+    <div class="footer-row">
+    <div class="footer-left">
+        <h1>Opening Hours</h1>
+        <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+        <p><i class="fa fa-clock-o"></i>Saturday & Sunday - 8am to 11pm</p>
+    </div>    
+    <div class="footer-right">
+        <h1>Get In Touch</h1>
+        <p>4060 Palmer Court, Napperville Illinois <i class="fa fa-map-marker"></i></p>
+        <p>Sahith.Y2008@gmail.com<i class="fa fa-paper-plane"></i></p>
+        <p>640-276-9080<i class="fa fa-phone"></i></p>
+    </div>    
+    </div>    
+     
+    <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+    </div>
+    
+    
+    
+    
+<script>
+    var menuBtn = document.getElementById("menuBtn")    
+    var sideNav = document.getElementById("sideNav")    
+    var menu = document.getElementById("menu") 
+    
+    sideNav.style.right = "-250px";
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "menu.png";
+        }
+    }
+    
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
+    
+    </script>
+
+    
+    
+    
+    <div class="EmailForm">
+        <form action="/submit" method="post" onsubmit="openRedirectPage(event)">
+            <label for="email"><strong>Email Sign Up</strong></label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <span id="emailError" style="display: none; font-family: sans-serif; color: red;"></span>
+            <br>
+            <input type="submit" value="Submit" id="submitButton" onclick="return validateEmail()">
+        </form>
+    </div>
+    
+
+    
+    </body>
+</html>
+
+
+
+
